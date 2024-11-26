@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.left a, .right a {
+   position: relative;
+  
+    justify-content: space-between;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    margin-left: 15px;
+    transition: all .4s ease 0s;
+    text-decoration: none;
+}
+
+.main-navbar .left a {
+    font-weight: bold;
+    color: #000000;
+    font-size: 30px;
+   letter-spacing: 3px;
+   top: 18px;
+}
+.main-navbar .right{
+  display: inline-block;
+  text-align: center;
+  gap: 20px;
+  top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#btn {  width: 40px;
+    height: 40px;
+    right: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #f35525;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    line-height: 40px;
+    margin-left: -6px;
+}
+#btn :hover{
+color: black;
+}
+nav a :hover{
+    color: #f35525;
+}
+.right a:hover {
+    text-decoration: none;
+}
+.social-navbar{
+   
+    background-color: #fff;
+    padding: 6px 0 40px 0px;
+    border-bottom: 1px solid #eee;
+   
+}
+
+
+ .left {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left:150px;
+   
+    margin-left: 10px;
+    
+    padding-right: 1px;}
+
+    
+.right{
+    position: relative;
+    right: 130px;
+    top: 6px;
+}
+
+.right :hover{
+    color: #f35525;
+    transition: all .4s ease 0s;
+    
+}
+button{ 
+left: 10px;
+background-color: #1e1e1e;
+color: #fff;
+font-size: 14px;
+font-weight: 400;
+text-transform: none;
+border-radius: 20px;
+padding-left: 0;
+padding: 0 8px 0 40px;
+height: 40px;
+margin-left: 30px;}
+
+button:hover {
+    color: #f35525;
+    cursor: pointer;
+}
+ .icon svg { position: relative;
+    right: 190px;
+    font-size: 20px;
+    color: #f35525;
+    margin-right: 15px;
+    top: 4px;
+}
+.icon2 svg { position: relative;
+    right: 269px;
+    font-size: 20px;
+    color: #f35525;
+    margin-right: 150px;
+    top: 4px;
+}
+.icons{ display: flex;
+gap :50px;}
+
+.social-navbar .right a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #cdcdcd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    transition: all .3s;
+}
+ .social-navbar .right a:hover{
+    border-color: #f35525;
+    background-color: #f35525;
+}
+
+
+#orange {
+    color: #f35525;
+   
+}
+@media(max-width: 1060px){
+    .main-navbar .right {
+    display: none;
+
+   }}
